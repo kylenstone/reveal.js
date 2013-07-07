@@ -1,5 +1,5 @@
 
-		.key {
+	.key {
   			font: 25px 'Molengo';
   			line-height: 30px;
   			color: #000;
@@ -17,3 +17,43 @@
   			margin: 0px 7px;
   			font-size: 13px;
 		}
+
+  .opaque { 
+    background-image: url(../img/shading/black-85-trans.png);
+    -moz-border-radius: 10px;         /* FF/Moz */
+    -webkit-border-radius: 10px;      /* Chrome */
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 10px;       /* Safari */
+    -webkit-box-shadow: 3px 3px 4px #000; 
+  }
+
+  .bump {
+    margin-top: 300px;
+  }
+
+
+  }
+
+
+/*
+  ----------------------------
+  UTILITY CLASSES
+  ____________________________
+*/
+
+.black-15 { background: url(img/shading/black-15-trans.png); color: #fff; padding: 4px 12px; margin: 24px 0; }
+.black-35 { background: url(img/shading/black-35-trans.png); color: #fff; padding: 4px 12px; margin: 24px 0; }
+.black-50 { background: url(img/shading/black-50-trans.png); color: #fff; padding: 4px 12px; margin: 24px 0; }
+.black-65 { background: url(img/shading/black-65-trans.png); color: #fff; padding: 4px 12px; margin: 24px 0; }
+.black-85 { background: url(img/shading/black-85-trans.png); color: #fff; padding: 4px 12px; margin: 24px 0; }
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
